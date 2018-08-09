@@ -1,0 +1,27 @@
+The translation is not covering all parts of speech.
+It should show the meaning as noun and the meaning as verb ...etc.
+
+For example if you search the word can +1
+
+SELECT * FROM engaradictionary.engaradictionary
+where upper(eng) = 'CAN';
+
+The result will be as below :
+
+id    | eng |   ara
+10890 | Can | يمكن أن
+
+It only cover the meaning as verb but, it should also cover at least the noun meaning علبة
+or cover most of the meaning like below :
+كأس
+صفيجة
+علبة
+سجن
+مدمّرة
+يستطيع
+يمكن
+
+Can we know which dictionary used to generate this database ?
+I highly appreciate all the efforts but we need to make this project perfect and useful.
+
+Thanks.
